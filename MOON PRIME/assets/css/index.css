@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+  background-image: repeating-radial-gradient(circle at center center, transparent 0px, transparent 11px,rgba(255,255,255,0.04) 11px, rgba(255,255,255,0.04) 19px,transparent 19px, transparent 29px,rgba(255,255,255,0.04) 29px, rgba(255,255,255,0.04) 33px),repeating-radial-gradient(circle at center center, rgb(0,0,0) 0px, rgb(0,0,0) 5px,rgb(0,0,0) 5px, rgb(0,0,0) 17px,rgb(0,0,0) 17px, rgb(0,0,0) 30px,rgb(0,0,0) 30px, rgb(0,0,0) 43px,rgb(0,0,0) 43px, rgb(0,0,0) 45px,rgb(0,0,0) 45px, rgb(0,0,0) 47px); background-size: 53px 53px;
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+#conteudo {
+    color:white;
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.barra-navegacao {
+    overflow: hidden;
+    padding: 20px;
+    font-size: 25px;
+    background-color: transparent;
+}
+.barra-navegacao a {
+    float: right;
+    display: block;
+    color:#4f17a3;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+.barra-navegacao a:hover {
+    color: #8833ff;
+}
+.barra-navegacao span {
+    float: left;
+    color: #4f17a3;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    transition:0.3s;
+}
+.barra-navegacao span:hover {
+    color: #8833ff;
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.texto-centro {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #cfcfcf;
+    margin-top: 175px;
+    text-align: center;
+}
+.texto-centro h3 {
+    padding: 10px;
+    font-size: 35px;
+}
+.texto-centro p {
+    font-size: 25px;
+}
+.texto-centro span {
+  transition: 0.3s;
+  cursor: default;
+}
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.registro {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.registro input {
+    text-align: center;
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    border: none;
+}
+.registro_container-button {
+    text-align: center;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    text-decoration: none;
+    background-color:#4f17a3;
+    color: white;
+}
+.registro button:hover {
+    color: black;
+    background-color: #8833ff;
+}
+
+.registro_container {
+  background-color: red;
+  height: 50px;
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.modal input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #0d0d0d;
+    color: white;
+  }
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    transition: 0.3s;
+  }
+  .cancelbtn:hover {
+    color: black;
+    background-color: #fd1f0f;
+  }
+  .container {
+    padding: 16px;
+    background-color: black;
+  }
+  .container label {
+      padding: 10px;
+      padding-left: 0px;
+      color: white;
+  }
+  .entrarbtn {
+      padding: 10px;
+      color: white;
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: #4f17a3;
+      transition: 0.5s;
+  }
+  .entrarbtn:hover {
+    background-color: #8833ff;
+    color: black;
+  }
+
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: black;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 80%; 
+  }
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(10, 10, 10, 0.8); 
+}
+::-webkit-scrollbar-thumb {
+  background: #4f17a3; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8833ff; 
+}
+.contato {
+  text-align: center;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  width: 100%;
+  margin-top: 500px;
+  border-top: 1px solid gray;
+}
+.contato h4 {
+  text-decoration: none;
+  padding: 35px;
+  color : gray;
+}
+.contato a {
+  text-decoration: none;
+  color: #4f17a3;
+}

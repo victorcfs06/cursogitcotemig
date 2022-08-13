@@ -1,0 +1,100 @@
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body {
+  background-color: black;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(10, 10, 10, 0.8); 
+}
+::-webkit-scrollbar-thumb {
+  background: #4f17a3; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4f17a3; 
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+#page {
+    color:white;
+    margin-top: 30px;
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.barra-navegacao {
+    padding: 20px;
+    font-size: 25px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(10, 10, 10, 0.8);
+    transition: 0.3s;
+    z-index: 1;
+}
+.barra-navegacao:hover {
+    background-color: rgba(10, 10, 10, 1);
+}
+.barra-navegacao a {
+    margin-right: 30px;
+    float: right;
+    display: block;
+    color:#4f17a3;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+.barra-navegacao a:hover {
+    color: #8833ff;
+}
+.barra-navegacao span {
+    float: left;
+    color: #4f17a3;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    transition:0.3s;
+}
+.barra-navegacao span:hover {
+    color: #8833ff;
+}
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.conteudo {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 100px;
+  padding: 20px;
+  color: white;
+  box-sizing: border-box;
+}
+.conteudo h3 {
+  margin-left: 16px;
+}
+.containers {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.containers img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 4.5px;
+  border-radius: 10px;
+  width: 350px;
+  height: 200px;
+  transition: 0.6s;
+}
+.containers img:hover {
+background-color: #8833ff;
+}
